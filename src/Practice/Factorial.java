@@ -14,7 +14,9 @@ public class Factorial {
 		}
 		
 		if(number > 0) {
-			factorialByLoop(number);			
+			factorialByLoop(number);	
+			factorialByRecursion(number);
+
 		}
 	}
 
@@ -28,5 +30,23 @@ public class Factorial {
 		}
 		System.out.println("Factorial of " +number+ " is : "+ factorial);
 	}
+	
+	public static void factorialByRecursion(int number) {
+		int fact = 1;
+		System.out.println("Factorial by Recursion Method\n");
+		fact = factorial(number);
+		System.out.println(number + "! is : " +fact);
+		
+	}
+	
+	public static int factorial(int number) {
+		if(number > 0) {
+			return (number * factorial(number-1));
+		}
+		else {
+			return 1;
+		}
+	}
+
 
 }
