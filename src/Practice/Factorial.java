@@ -11,7 +11,7 @@ public class Factorial {
 		if(input.hasNextInt()) {
 			number = input.nextInt();
 			input.close();
-		}
+		} //just test
 		
 		if(number > 0) {
 			factorialByLoop(number);	
