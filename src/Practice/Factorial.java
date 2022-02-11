@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Factorial {
 //trying fetch option
+	
+	//Sangeetha wants to pull this code
 	public static void main(String[] args) {
 		int number = 0;		
 		System.out.println("Please enter a number\n");
