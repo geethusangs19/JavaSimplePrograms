@@ -3,7 +3,7 @@ package Practice;
 import java.util.Scanner;
 
 public class Factorial {
-
+//trying fetch option
 	public static void main(String[] args) {
 		int number = 0;		
 		System.out.println("Please enter a number\n");
